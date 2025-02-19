@@ -25,3 +25,6 @@ system, actually building the ROS environment and running the launch files
 is difficult. So, this repository is primarily for viewing the code. The 
 important files used for calibration, data recording, and workflow deployment
 are located in the 'camera_combiner' directory under 'src'. 
+
+Note that directories containing recorded data, calibration output, and ROS
+environment build data were omitted from this repository.
