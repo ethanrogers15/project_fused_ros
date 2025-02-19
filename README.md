@@ -8,10 +8,14 @@ https://sites.google.com/view/projectfused
 Point of Contact: Ethan Rogers, ethan.c.rogers@gmail.com
 
 This repository contains a primarily viewable version of the virtual ROS
-environment used for Project FUSED. 
+environment used for Project FUSED. If you want to run the fusion workflow
+on recorded ROS bags, look into the demo environment linked below.
 
 The main FUSED environment is located here:
 https://github.com/ethanrogers15/project_fused
+
+The ROS2 demo environment is located here: 
+https://github.com/ethanrogers15/project_fused_ros_demo
 
 The model training environment is located here:
 https://github.com/ethanrogers15/mediapipe_model_maker
