@@ -1,0 +1,9 @@
+Example Monocular and Stereo Calibration Commands
+
+ros2 run camera_calibration cameracalibrator --pattern acircles --size 9x4 --square 0.05 image:=/image/lepton/synchronized_image camera:=/lepton
+
+ros2 run camera_calibration cameracalibrator --approximate 0.1 --pattern acircles --size 9x4 --square 0.05 \
+  --ros-args --remap right:=/image/flexx2_camera_node/synchronized_gray_image \
+  --remap left:=/image/webcam/synchronized_image \
+  --remap right_camera:=/flexx2_camera_node \
+  --remap left_camera:=/webcam

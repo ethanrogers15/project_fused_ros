@@ -1,0 +1,21 @@
+image_width: 160
+image_height: 120
+camera_name: "lepton"
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [161.393925, 0.000000, 78.062273, 0.000000, 161.761028, 59.925115, 0.000000, 0.000000, 1.000000]
+distortion_model: "plumb_bob"
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.335676, 0.159172, -0.002063, -0.000246, 0.000000]
+  # data: [0.13, 0.01, 0.001, 0.000000, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [147.452377, 0.000000, 77.543809, 0.000000, 0.000000, 153.788910, 59.626026, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

@@ -1,0 +1,25 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/video2"
+    framerate: 9.0
+    io_method: "mmap"
+    pixel_format: "mono16" # currently grayscale, uyvy for color
+    image_width: 160
+    image_height: 120
+    camera_name: "lepton"
+    camera_info_url: "package://usb_cam/config/lepton_info_calibrated_no_d.yaml"
+#   io_method: "mmap"
+#   frame_id: "camera"
+#   pixel_format: "uyvy" # see usb_cam/supported_formats for list of supported formats
+#   av_device_format: "raw" # "YUV422P"
+#   brightness: -1
+#   contrast: -1
+#   saturation: -1
+#   sharpness: -1
+#   gain: -1
+#   auto_white_balance: false
+#   white_balance: -1
+#   autoexposure: true
+#   exposure: -1
+#   autofocus: false
+#   focus: -1

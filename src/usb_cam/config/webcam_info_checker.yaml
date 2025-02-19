@@ -1,0 +1,20 @@
+image_width: 320
+image_height: 240
+camera_name: "webcam"
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [462.460839, 0.000000, 152.914578, 0.000000, 463.472635, 126.171596, 0.000000, 0.000000, 1.000000]
+distortion_model: "plumb_bob"
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.150681, -0.047082, 0.002035, -0.014687, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [472.056000, 0.000000, 150.012679, 0.000000, 0.000000, 476.621704, 125.814422, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
