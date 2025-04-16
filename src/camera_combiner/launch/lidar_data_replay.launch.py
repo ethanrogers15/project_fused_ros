@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Set bag path for playing
-    bag_path = '/ros2_object_detection/images/tv/bag' #NOTE: change for different scenarios
+    bag_path = '/ros2_object_detection/images/urs/bag' #NOTE: change for different scenarios
     
     # Start lidar replay node
     lidar_data_replay_node = Node(
@@ -23,7 +23,7 @@ def generate_launch_description():
         ],
         parameters=[{
             'output_dir': '/ros2_object_detection/lidar_data',
-            'category': 'tv', #NOTE: change for different scenarios
+            'category': 'urs', #NOTE: change for different scenarios
             'output_colormaps': True
         }]
     )

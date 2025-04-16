@@ -167,14 +167,14 @@ def generate_launch_description():
         ],
         parameters=[{
             'output_colormaps': True,
-            'category': 'tv', # NOTE: Change category mapping to special name for the specific scenario named directory
+            'category': 'urs', # NOTE: Change category mapping to special name for the specific scenario named directory
         }]
     )
     
     # ROS Bag Recording and Saving
     ros_bag_record = ExecuteProcess(
         cmd=[
-            'ros2', 'bag', 'record', '-o', '/ros2_object_detection/images/tv/bag',  # NOTE: change category to match above one
+            'ros2', 'bag', 'record', '-o', '/ros2_object_detection/images/urs/bag',  # NOTE: change category to match above one
             '/flexx2_camera_node/depth_image_rect', 
             '/lepton/image_rect', 
             '/webcam/image_rect', 
